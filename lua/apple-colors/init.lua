@@ -50,7 +50,7 @@ local function set_groups()
     CursorIM = { link = 'Cursor' },
     CursorLine = { bg = colorscheme.popupBackground },
     CursorColumn = { link = 'CursorLine' },
-    Directory = { fg = colorscheme.syntaxFunction },
+    Directory = { fg = colorscheme.syntaxKeyword, bold=True },
     DiffAdd = { bg = bg, fg = diff_add },
     DiffChange = { bg = bg, fg = diff_change },
     DiffDelete = { bg = bg, fg = diff_delete },
