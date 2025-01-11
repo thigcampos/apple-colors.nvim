@@ -1,4 +1,4 @@
-local theme = require 'apple-system/init'
+local theme = require 'apple-colors/init'
 
 theme.setup {
   theme = 'dark',
