@@ -1,19 +1,19 @@
-# Apple Colors
-Apple-colors is a colorscheme built for NeoVim and inspired by Ghostty's implementation of Xcode Dark High Contrast theme.
+# Cupertino
+Cupertino is a color-scheme built for NeoVim and inspired by Xcode themes.
 
 ## Installation
 Using `lazy.nvim`:
 
 ```lua
 {
-  "thigcampos/apple-colors.nvim",
+  "thigcampos/cupertino.nvim",
   lazy = false,
   priority = 1000,
   config = function()
-    vim.cmd([[colorscheme apple-colors]])
+    vim.cmd([[colorscheme cupertino]])
   end,
 },
 ```
 
 ## License
-This project is licensed under MIT. Check [LICENSE](LICENSE) file for more information.
+This project is licensed under GNU GPLv3. Check [LICENSE](LICENSE) file for more information.

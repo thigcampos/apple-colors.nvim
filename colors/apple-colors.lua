@@ -1,2 +1,0 @@
-require("apple-colors").colorscheme()
-
